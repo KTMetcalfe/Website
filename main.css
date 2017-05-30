@@ -1,0 +1,49 @@
+/* https://material.io/color/#!/?view.left=0&view.right=0&primary.color=607D8B&secondary.color=FF6F00 */
+:root {
+--p: #607D8B;
+--p-l: #8eacbc;
+--p-d: #34515e;
+--s: #FF6F00;
+--s-l: #ffa040;
+--s-d: #c43e00;
+}
+
+body {
+	background-color: var(--p);
+}
+
+article, aside {
+	background-color: var(--s-l);
+	margin: auto;
+	display: block;
+	color: black;
+	text-align: center;
+	border: 3px;
+	text-decoration: none;
+	font-size: 1.2em;
+}
+
+p {
+	font-size: .6em;
+}
+
+.navClass {
+	overflow: hidden;
+	background-color: var(--s);
+	border: 3px solid var(--p-d);
+}
+
+.navClass a {
+	float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 1.2em;
+}
+
+.navClass a:hover {
+	background-color: var(--s-l);
+	color: black;
+}
