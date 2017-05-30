@@ -16,7 +16,7 @@ article, aside {
 	background-color: var(--s-l);
 	margin: auto;
 	display: block;
-	color: black;
+	color: red;
 	text-align: center;
 	border: 3px;
 	text-decoration: none;
@@ -29,7 +29,7 @@ p {
 
 .navClass {
 	overflow: hidden;
-	background-color: black;
+	background-color: var(--s);
 	border: 3px solid var(--p-d);
 }
 
