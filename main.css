@@ -29,7 +29,7 @@ p {
 
 .navClass {
 	overflow: hidden;
-	background-color: var(--s);
+	background-color: black;
 	border: 3px solid var(--p-d);
 }
 
