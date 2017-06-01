@@ -4,21 +4,35 @@
 		<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Child Labor Productions</title>
 		<link rel="stylesheet" href="main.css" />
+		<script>
+		  function myFunction(){
+			  window.alert('something');
+			  var x = document.getElementById("navId")
+
+			  if (x.classname=="navClass");
+			  {
+				  x.classname += " responsive";
+			  }
+			  else x.classname = "navClass";
+		  }
+		</script>
 	</head>
 	<body>
 		<main>
 			<header>
-				Child Labor Productions
+				Home
 			</header>
 			<nav class="navClass", id="navId">
-				<a href="#">Advantages</a>
+				<a href="index.html">Home</a>
+				<a href="advantages.html">Advantages</a>
 				<a href="#">Disadvantages</a>
 				<a href="#">Pricing</a>
 				<a href="#">Legal Status</a>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction();">&#9776;</a>
 			</nav>
 			<section>
 				<article>
-					Advantages:
+					Advantages
 					<p>
 						Stinky
 					</p>

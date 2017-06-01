@@ -47,3 +47,26 @@ p {
 	background-color: var(--s-l);
 	color: black;
 }
+
+.navClass .icon {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .navClass a:not(:first-child) {display: none;}
+  .navClass a.icon{
+    float: right;
+    display: block;
+  }
+	.navClass.responsive {position: relative;}
+	.navClass.responsive .icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.navClass.responsive a{
+	  float: none;
+	  display: block;
+	  text-align: left;
+	}
+}
